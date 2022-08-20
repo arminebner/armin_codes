@@ -1,4 +1,41 @@
 baseURL = 'https://arminebner.codes/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'armin codes'
 theme = 'PaperMod'
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 30
+
+[params]
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+  [params.homeInfoParams]
+  Title = "Hey there and welcome!"
+  Content = "My name is Armin. I develop software and here I want to share the things I learn and the problems that I encounter. Feel free to connect with me and... enjoy!"
+
+  [[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/armin-ebner/"
+
+  [[params.socialIcons]]
+  name = "GitHub"
+  url = "https://github.com/arminebner"
