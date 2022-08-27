@@ -32,8 +32,7 @@ Key advantages are [¹]
 - Fewer dependencies ( i.e. databases )
 - Cost savings
 
-A disadvantage is that all dynamic functionality has to be performed client side, but 
-Not long ago, you would have said that a static site is a good fit for you if the sites content doesn't change often and if you don'T have too many files to manage. 
+A disadvantage is that all dynamic functionality has to be performed client side and not long ago, you would have said that a static site is a good fit for you if the sites content doesn't change often and if you don't have too many files to manage. 
 But with the help of static site generators like Hugo, it is easy to update existing and also publish new content to your static site, because you don't have to do the 'heavy lifting'.
 
 ### Install Hugo and create a repository
