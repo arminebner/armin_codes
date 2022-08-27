@@ -4,15 +4,15 @@ title = 'armin codes'
 theme = 'PaperMod'
 
 [[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
+identifier = "posts"
+name = "posts"
+url = "/posts/"
 weight = 10
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
+identifier = "categories"
+name = "categories"
+url = "/categories/"
 weight = 20
 
 [[menu.main]]
@@ -21,16 +21,36 @@ name = "archives"
 url = "/archives/"
 weight = 30
 
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 40
+
 [params]
 ShowCodeCopyButtons = true
 ShowBreadCrumbs = true
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
+ShowToc = true
 
-  [params.homeInfoParams]
-  Title = "Hey there and welcome!"
-  Content = "My name is Armin. I develop software and here I want to share the things I learn and the problems that I encounter. Feel free to connect with me and... enjoy!"
+  [params.profileMode]
+  enabled = true
+  title = "Hey there and welcome!"
+  subtitle = "My name is Armin. I develop software and here I want to share the things I learn and the problems that I encounter. Feel free to connect with me and... enjoy!"
+  imageUrl = "https://arminebner.codes/profile_pic.png"
+  imageTitle = "profile picture"
+  imageWidth = 240
+  imageHeight = 240
+
+    [[profileMode.buttons]]
+    name = "Archive"
+    url = "/archive"
+
+    [[profileMode.buttons]]
+    name = "Github"
+    url = "https://github.com/"
 
   [[params.socialIcons]]
   name = "LinkedIn"
