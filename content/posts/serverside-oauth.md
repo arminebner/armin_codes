@@ -1,7 +1,7 @@
 ---
 title: "Serverside Oauth2.0 Authentication"
 date: 2023-06-20T16:47:14+02:00
-draft: true
+draft: false
 tags:
   ["typescript", "node.js", "nest.js", "google", "oauth", "authentication", "learning", "fullstack"]
 cover:
