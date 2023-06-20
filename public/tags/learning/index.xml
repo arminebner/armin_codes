@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>learning on armin codes</title>
+    <link>https://arminebner.codes/tags/learning/</link>
+    <description>Recent content in learning on armin codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Mar 2023 10:45:48 +0100</lastBuildDate><atom:link href="https://arminebner.codes/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A fullstack Project</title>
+      <link>https://arminebner.codes/posts/the-boring-project/</link>
+      <pubDate>Sun, 05 Mar 2023 10:45:48 +0100</pubDate>
+      
+      <guid>https://arminebner.codes/posts/the-boring-project/</guid>
+      <description>Building a Fullstack Project with Vue 3, Node/Express and PostgreSQL: Lessons learned in Clean Code, Domain Driven Design, Clean Architecture, and Test Driven Development - Work in Progress Motivation After my first 18 months as a software developer, I wanted to take the time to re-create everything I learned from my first job to really let it sink in and see what I really understood and what needs to be &amp;ldquo;investigated further&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>website on armin codes</title>
+    <link>https://arminebner.codes/tags/website/</link>
+    <description>Recent content in website on armin codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Aug 2022 12:34:50 +0200</lastBuildDate><atom:link href="https://arminebner.codes/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo deployment with GitHub actions</title>
+      <link>https://arminebner.codes/posts/hugogithubactions/</link>
+      <pubDate>Sat, 27 Aug 2022 12:34:50 +0200</pubDate>
+      
+      <guid>https://arminebner.codes/posts/hugogithubactions/</guid>
+      <description>Hugo on GitHub with Github actions TLDR; If you are hosting your Hugo website on GitHub pages, you can easily deploy it via GitHub actions. Go to the settings tab of the repo containing your Hugo site. Select the pages tab and then simply choose actions instead of branch under &amp;ldquo;Build and deployment&amp;rdquo; and choose the corresponding &amp;ldquo;Hugo&amp;rdquo; action. After commiting the action into your repository, it will build and deploy your site after every push to the main branch.</description>
+    </item>
+    
+  </channel>
+</rss>
